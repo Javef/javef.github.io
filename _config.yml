@@ -1,0 +1,85 @@
+# Basic
+title: 北岛向南
+subtitle: 个人站
+description: 欢迎来到我的个人站~
+# 头像里面的标题
+avatarTitle: Zhouie
+# 头像里面的描述
+avatarDesc: 2018 · 期待
+url: "http://www.zhouie.cn"
+
+# Comment
+comment:
+    #友言，jiaThis旗下的，由于时http请求，github pages现在都是https了， 在https站点无法调用http请求，故也无法使用
+    # 友言id,登录友言官网申请
+    #uyan: 2154872
+    
+    #disqus，国外比较火的评论系统，但在国内墙了
+    # disqus用户名,登录http://disqus.com/官网申请(不过貌似这个目前国内又用不了了)
+    #disqus: Javef
+    
+    # Support for LiveRe comments system.
+    # You can get your uid from https://livere.com/insight/myCode (General web site)
+    livere_uid: MTAyMC8zMzE0My85NzAx    #韩国一款软件，来必力
+
+# Social
+social:
+    weibo: 5736541528 
+    github: Javef
+    # twitter: 
+    gplus: 110700564157953759206    #Google+ 的id号
+    mail: nanzhouie@gmail.com
+    flickr: nanzhouie
+    paypal: zhouie
+    music: 426481614    # Netease Cloud Music网易云音乐的ID
+    
+# 百度统计 
+# 使用博客模板请去掉或者更换 id 
+baidu:
+    id: 840d0f85db8546fc7578e9a459f10d7f
+
+# Google Analytics
+# 使用博客模板请去掉或者更换 id
+ga:
+    id: UA-117762077-1
+    host: auto  
+    ad_id: ca-pub-1103012037589808
+
+
+# 《----------------- 上面的信息修改成你自己的 ---------------------------》
+#
+#
+#  _post/ 下的文章更换成你自己的文章
+#
+#
+# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
+
+
+permalink: /:year/:month/:title/
+# Format
+highlighter: rouge
+
+textColor: #FF0000
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 所有文章, description: archive, url: '/archive'}   
+    - {title: 标签, description: tags, url: '/tags'}
+    - {title: 项目, description: project, url: '/project'}      
+    - {title: 关于我, description: about, url: '/about'}
+          
+    
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+

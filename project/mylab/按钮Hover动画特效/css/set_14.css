@@ -1,0 +1,108 @@
+.set_14_viavi-buttons {
+	width:100%;
+	float:left;
+}
+.set_14_viavi-buttons i {
+line-height:25px;
+}
+.set_14_viavi-buttons div {
+	display: inline-block;
+	position: relative;
+	color: #FFFFFF;
+	text-shadow: 0 1px 1px #263A65;
+	border: 1px solid #263A65;
+	text-align: center;
+	-webkit-box-shadow: inset 0 1px 0 rgba(245, 254, 254, 0.2), 0 1px 0 rgba(245, 254, 254, 0.2);
+	box-shadow: inset 0 1px 0 rgba(245, 254, 254, 0.2), 0 1px 0 rgba(245, 254, 254, 0.2);
+	width: 25px;
+	height: 25px;
+	padding: 10px;
+	margin-right:10px;
+	cursor:pointer;
+	background-color: #3B5998;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-transition: ease 0.5s;
+	-moz-transition: ease 0.5s;
+	-ms-transition: ease 0.5s;
+	-o-transition: ease 0.5s;
+	transition: ease 0.5s;
+}
+.set_14_viavi-buttons div:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	content: attr(data-share);
+	position: absolute;
+	opacity: 0;
+	top: 0px;
+	right: 0;
+	font-size: 12px;
+	margin: auto;
+	color: #fff;
+	text-shadow: none;
+	left: 0;
+	padding-top: 5px;
+	background: #666;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	width: 25px;
+	height: 25px;
+	-webkit-transition: ease 0.5s;
+	-moz-transition: ease 0.5s;
+	-ms-transition: ease 0.5s;
+	-o-transition: ease 0.5s;
+	transition: ease 0.5s;
+}
+.set_14_viavi-buttons div:before {
+	bottom: 15px;
+	content: "";
+	left: 0;
+	right: 0;
+	opacity: 0;
+	margin: auto;
+	width: 0px;
+	height: 0;
+	position: absolute;
+	z-index: 99;
+	border: solid;
+	-webkit-transition: ease 0.5s;
+	-moz-transition: ease 0.5s;
+	-ms-transition: ease 0.5s;
+	-o-transition: ease 0.5s;
+	transition: ease 0.5s;
+	border-color: #666 transparent;
+	border-width: 3px 3px 0 3px;
+}
+.set_14_viavi-buttons div:hover::after {
+	top: -30px;
+	opacity: 1;
+}
+.set_14_viavi-buttons div:hover::before {
+	bottom: 47px;
+	opacity: 1;
+}
+.set_14_viavi-buttons .Vtw {
+	background-color: #00A7E7;
+	border: 1px solid #0074A2;
+	text-shadow: 0 1px 1px #0074A2;
+}
+.set_14_viavi-buttons .Vtw:after {
+	color: #fff;
+}
+.set_14_viavi-buttons .Vin {
+	background-color: #1C87BD;
+	border: 1px solid #136994;
+	text-shadow: 0 1px 1px #136994;
+}
+.set_14_viavi-buttons .Vin:after {
+	color: #fff;
+}
+.set_14_viavi-buttons .Vdb {
+	background-color: #F75A92;
+	border: 1px solid #BF4571;
+	text-shadow: 0 1px 1px #BF4571;
+}
+.set_14_viavi-buttons .Vdb:after {
+	color: #fff;
+}

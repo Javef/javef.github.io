@@ -1,0 +1,237 @@
+.set_10_button {
+  outline: none;
+  border: none;
+  display: block;
+  cursor: pointer;
+  width:auto;
+  float:left;
+  background-color: transparent;
+  position: relative;
+  border: 2px solid #999;
+  float: left;
+  font-weight: 400;
+  line-height: 45px;
+  margin-right: 2.5em;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+}
+.btn1 {
+  overflow: hidden;
+}
+.btn1 span {
+  color: #666;
+  display: inline-block;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+}
+.btn1 .icon {
+  position: absolute;
+  left: -60px;
+  top: 0;
+  color: #fff;
+  width:40px;
+  float:left;
+  background-color: #666666;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+}
+.btn1:hover .icon {
+  left: 0px;
+}
+.btn1:hover span {
+  color: #666666;
+  margin-left: 50px;
+}
+
+
+/* button 2 */
+.set_10_button2 {
+  outline: none;
+  border: none;
+  display: block;
+  cursor: pointer;
+  width:auto;
+  float:left;
+  background-color: transparent;
+  position: relative;
+  border: 2px solid #f8c013;
+  float: left;
+  font-weight: 400;
+  line-height: 45px;
+  margin-right: 2.5em;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+}
+.btn2 {
+  overflow: hidden;
+}
+.btn2 span {
+  color: #666;
+  display: inline-block;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+}
+.btn2 .icon {
+  position: absolute;
+  left: -60px;
+  top: 0;
+  color: #fff;
+  width:40px;
+  float:left;
+  background-color: #ffd311;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+}
+.btn2:hover .icon {
+  left: 0px;
+}
+.btn2:hover span {
+  color: #666;
+  margin-left: 50px;
+}
+
+
+/* button 3 */
+.set_10_button3 {
+  outline: none;
+  border: none;
+  display: block;
+  cursor: pointer;
+  width:auto;
+  float:left;
+  background-color: transparent;
+  position: relative;
+  border: 2px solid #f2625a;
+  float: left;
+  font-weight: 400;
+  line-height: 45px;
+  margin-right: 2.5em;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+}
+.btn3 {
+  overflow: hidden;
+}
+.btn3 span {
+  color: #666;
+  display: inline-block;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+}
+.btn3 .icon {
+  position: absolute;
+  left: -60px;
+  top: 0;
+  color: #fff;
+  width:40px;
+  float:left;
+  background-color: #f2625a;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+}
+.btn3:hover .icon {
+  left: 0px;
+}
+.btn3:hover span {
+  color: #666;
+  margin-left: 50px;
+}
+
+
+/* button 4 */
+.set_10_button4 {
+  outline: none;
+  border: none;
+  display: block;
+  cursor: pointer;
+  width:auto;
+  float:left;
+  background-color: transparent;
+  position: relative;
+  border: 2px solid #56c5ff;
+  float: left;
+  font-weight: 400;
+  line-height: 45px;
+  margin-right: 2.5em;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+}
+.btn4 {
+  overflow: hidden;
+}
+.btn4 span {
+  color: #666;
+  display: inline-block;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+}
+.btn4 .icon {
+  position: absolute;
+  left: -60px;
+  top: 0;
+  color: #fff;
+  width:40px;
+  float:left;
+  background-color: #56c5ff;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+}
+.btn4:hover .icon {
+  left: 0px;
+}
+.btn4:hover span {
+  color: #666;
+  margin-left: 50px;
+}

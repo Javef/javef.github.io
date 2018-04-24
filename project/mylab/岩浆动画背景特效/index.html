@@ -1,0 +1,65 @@
+﻿<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>HTML5 Canvas岩浆动画背景特效</title>
+
+    <style>
+    @charset "UTF-8";
+    *, *:before, *:after {
+      box-sizing: border-box;
+    }
+
+    body {
+      padding: 0;
+      margin: 0;
+      overflow: hidden;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    canvas {
+      width: 100vw;
+      height: 100vh;
+    }
+
+    h1 {
+      position: absolute;
+      z-index: 1;
+      width: 100%;
+      left: 0;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+              transform: translateY(-50%);
+      mix-blend-mode: overlay;
+      color: rgba(0, 0, 0, 0.3);
+      line-height: 0;
+      font-size: 16px;
+      letter-spacing: 4px;
+      text-align: center;
+      text-transform: uppercase;
+      transform: translateY(-50%);
+      cursor: pointer;
+      -webkit-transition: color .2s ease-in-out;
+      transition: color .2s ease-in-out;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+    }
+    h1:hover {
+      color: rgba(0, 0, 0, 0.8);
+    }
+    </style>
+</head>
+
+<body>
+    <canvas id="canvas"></canvas>
+
+    <h1>The Floor is Lava</h1>
+
+    <script type="text/javascript" src="js/chroma.min.js"></script>
+    <script type="text/javascript" src="js/dat.gui.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    
+</body>
+</html>

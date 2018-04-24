@@ -1,0 +1,83 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: #eee -webkit-linear-gradient(315deg, #2980b9, #9b59b6);
+  background: #eee linear-gradient(135deg, #2980b9, #9b59b6);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  width: 100;
+}
+body .blocks {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body .blocks .block {
+  position: relative;
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  -webkit-transform: perspective(600px) rotateY(-30deg);
+          transform: perspective(600px) rotateY(-30deg);
+  -webkit-transition: -webkit-transform .3s;
+  transition: -webkit-transform .3s;
+  transition: transform .3s;
+  transition: transform .3s, -webkit-transform .3s;
+}
+body .blocks .block img {
+  width: auto;
+  max-width: 100%;
+}
+body .blocks .block .overlay {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  -webkit-transition: opacity .3s ease;
+  transition: opacity .3s ease;
+}
+body .blocks .block .overlay img {
+  width: auto;
+  max-width: 50%;
+}
+body .blocks .block.hover, body .blocks .block:hover {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+  cursor: pointer;
+}
+body .blocks .block.hover .overlay, body .blocks .block:hover .overlay {
+  opacity: 1;
+}
+/*jQuery之家-http://www.htmleaf.com*/

@@ -1,0 +1,85 @@
+<!DOCTYPE html>  
+<html>  
+  
+    <head>  
+        <meta charset="UTF-8">  
+        <title>transform、transform 图片拉近 优化</title>  
+        <style>  
+           
+            .test_a {  
+                display: block;
+                margin: 0 auto;
+                width:400px;
+                overflow: hidden;
+            }
+              
+            .test_a img {  
+                width: 100%;  
+                transform: scale(1);  
+                transition: all 1s ease 0s;
+            }  
+            
+            .test_a:hover img {  
+                transform: scale(1.2);
+                transition: all 1s ease 0s;
+            }  
+
+            #code {
+                width: 720px;
+                height: 720px;
+                margin: 0 auto;
+                font-size:18px;
+            }
+        </style>  
+    </head>  
+  
+    <body>  
+        <a href="" class="test_a">
+          <img src="1.jpg" />
+        </a>  
+        
+  <div id='code'>
+    <p>源码</p>
+  <pre class="prettyprint">
+    
+&lt;!DOCTYPE html&gt;  
+&lt;html&gt;  
+  
+    &lt;head&gt;  
+        &lt;meta charset=&quot;UTF-8&quot;&gt;  
+        &lt;title&gt;transform、transform 图片拉近 优化&lt;/title&gt;  
+        &lt;style&gt;  
+           
+            .test_a {  
+                display: block;
+                margin: 0 auto;
+                width:400px;
+                overflow: hidden;
+            }
+              
+            .test_a img {  
+                width: 100%;  
+                transform: scale(1);  
+                transition: all 1s ease 0s;
+            }  
+            
+            .test_a:hover img {  
+                transform: scale(1.2);
+                transition: all 1s ease 0s;
+            }  
+        &lt;/style&gt;  
+    &lt;/head&gt;  
+  
+    &lt;body&gt;  
+        &lt;a href=&quot;&quot; class=&quot;test_a&quot;&gt;
+          &lt;img src=&quot;1.jpg&quot; /&gt;
+        &lt;/a&gt;  
+    &lt;/body&gt;  
+  
+&lt;/html&gt;  
+  </pre>
+  </div>
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=desert"></script>
+    </body>  
+  
+</html>  

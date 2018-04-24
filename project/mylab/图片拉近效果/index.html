@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>实现图片拉近效果的几种方式</title>
+  <style>
+
+    *{
+      margin:0px;
+      padding:0px;
+    }
+
+    html,body{
+      height:100%;
+      width:100%;
+      overflow: hidden;
+    }
+
+    fieldset{
+      margin:3px;
+      padding:10px 0px 10px 40px;
+      box-sizing: border-box;
+    }
+
+    iframe{
+      width:99%;
+      height:calc(100% - 200px);
+      margin-left:5px;
+    }
+  </style>
+</head>
+<body>
+  <fieldset>
+    <legend>实现图片拉近效果的几种方式</legend>
+    <ul>
+      <li><a href="demo01.html" target='test'> background实现</a></li>
+      <li><a href="demo02.html" target='test'> img width height实现</a></li>
+      <li><a href="demo03.html" target='test'> transform实现</a></li>
+      <li><a href="demo04.html" target='test'> transform+transition实现</a></li>
+      <li><a href="demo05.html" target='test'> transform+transition 优化</a></li>
+     
+    </ul>
+  </fieldset>
+
+  <iframe name='test' src='demo01.html' />
+</body>
+</html>

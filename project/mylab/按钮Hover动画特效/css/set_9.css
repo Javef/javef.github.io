@@ -1,0 +1,309 @@
+.set_9_btn-corner {
+  padding: 0px 25px;
+  border: none;
+  background: transparent;
+  color: #333;
+  width:auto;
+  float:left;
+  position:relative;
+  line-height:45px;
+  cursor:pointer;
+  margin-right: 2em;
+}
+.set_9_btn-corner span {
+  position: absolute;
+  background-color: #666666;
+  display: block;
+  transition: all 200ms;
+}
+.set_9_btn-corner .line1,
+.set_9_btn-corner .line3 {
+  height: 2px;
+  width: 20px;
+}
+.set_9_btn-corner .line2,
+.set_9_btn-corner .line4 {
+  height: 20px;
+  width: 2px;
+}
+.set_9_btn-corner .line1,
+.set_9_btn-corner .line2 {
+  top: 0;
+  right: 0;
+}
+.set_9_btn-corner .line3,
+.set_9_btn-corner .line4 {
+  bottom: 0;
+  left: 0;
+}
+.set_9_btn-corner.reverse .line1,
+.set_9_btn-corner.reverse .line3 {
+  width: 100%;
+}
+.set_9_btn-corner.reverse .line2,
+.set_9_btn-corner.reverse .line4 {
+  height: 100%;
+}
+.set_9_btn-corner:hover,
+.set_9_btn-corner:active {
+  background-color: transparent;
+  color: #333;
+}
+.set_9_btn-corner:hover .line1,
+.set_9_btn-corner:active .line1,
+.set_9_btn-corner:hover .line3,
+.set_9_btn-corner:active .line3 {
+  width: 100%;
+}
+.set_9_btn-corner:hover .line2,
+.set_9_btn-corner:active .line2,
+.set_9_btn-corner:hover .line4,
+.set_9_btn-corner:active .line4 {
+  height: 100%;
+}
+.set_9_btn-corner:hover.reverse .line1,
+.set_9_btn-corner:active.reverse .line1,
+.set_9_btn-corner:hover.reverse .line3,
+.set_9_btn-corner:active.reverse .line3 {
+  width: 20px;
+}
+.set_9_btn-corner:hover.reverse .line2,
+.set_9_btn-corner:active.reverse .line2,
+.set_9_btn-corner:hover.reverse .line4,
+.set_9_btn-corner:active.reverse .line4 {
+  height: 20px;
+}
+
+
+/* button 2*/
+.set_9_btn2-corner {
+  padding: 0px 25px;
+  border: none;
+  background: transparent;
+  color: #333;
+  width:auto;
+  float:left;
+  position:relative;
+  line-height:45px;
+  cursor:pointer;
+  margin-right: 2em;
+}
+.set_9_btn2-corner span {
+  position: absolute;
+  background-color: #f8c013;
+  display: block;
+  transition: all 200ms;
+}
+.set_9_btn2-corner .line1,
+.set_9_btn2-corner .line3 {
+  height: 2px;
+  width: 20px;
+}
+.set_9_btn2-corner .line2,
+.set_9_btn2-corner .line4 {
+  height: 20px;
+  width: 2px;
+}
+.set_9_btn2-corner .line1,
+.set_9_btn2-corner .line2 {
+  top: 0;
+  right: 0;
+}
+.set_9_btn2-corner .line3,
+.set_9_btn2-corner .line4 {
+  bottom: 0;
+  left: 0;
+}
+.set_9_btn2-corner.reverse .line1,
+.set_9_btn2-corner.reverse .line3 {
+  width: 100%;
+}
+.set_9_btn2-corner.reverse .line2,
+.set_9_btn2-corner.reverse .line4 {
+  height: 100%;
+}
+.set_9_btn2-corner:hover,
+.set_9_btn2-corner:active {
+  background-color: transparent;
+  color: #333;
+}
+.set_9_btn2-corner:hover .line1,
+.set_9_btn2-corner:active .line1,
+.set_9_btn2-corner:hover .line3,
+.set_9_btn2-corner:active .line3 {
+  width: 100%;
+}
+.set_9_btn2-corner:hover .line2,
+.set_9_btn2-corner:active .line2,
+.set_9_btn2-corner:hover .line4,
+.set_9_btn2-corner:active .line4 {
+  height: 100%;
+}
+.set_9_btn2-corner:hover.reverse .line1,
+.set_9_btn2-corner:active.reverse .line1,
+.set_9_btn2-corner:hover.reverse .line3,
+.set_9_btn2-corner:active.reverse .line3 {
+  width: 20px;
+}
+.set_9_btn2-corner:hover.reverse .line2,
+.set_9_btn2-corner:active.reverse .line2,
+.set_9_btn2-corner:hover.reverse .line4,
+.set_9_btn2-corner:active.reverse .line4 {
+  height: 20px;
+}
+
+
+/* button 3*/
+.set_9_btn3-corner {
+  padding: 0px 25px;
+  border: none;
+  background: transparent;
+  color: #333;
+  width:auto;
+  float:left;
+  position:relative;
+  line-height:45px;
+  cursor:pointer;
+  margin-right: 2em;
+}
+.set_9_btn3-corner span {
+  position: absolute;
+  background-color: #dd483f;
+  display: block;
+  transition: all 200ms;
+}
+.set_9_btn3-corner .line1,
+.set_9_btn3-corner .line3 {
+  height: 2px;
+  width: 20px;
+}
+.set_9_btn3-corner .line2,
+.set_9_btn3-corner .line4 {
+  height: 20px;
+  width: 2px;
+}
+.set_9_btn3-corner .line1,
+.set_9_btn3-corner .line2 {
+  top: 0;
+  right: 0;
+}
+.set_9_btn3-corner .line3,
+.set_9_btn3-corner .line4 {
+  bottom: 0;
+  left: 0;
+}
+.set_9_btn3-corner.reverse .line1,
+.set_9_btn3-corner.reverse .line3 {
+  width: 100%;
+}
+.set_9_btn3-corner.reverse .line2,
+.set_9_btn3-corner.reverse .line4 {
+  height: 100%;
+}
+.set_9_btn3-corner:hover,
+.set_9_btn3-corner:active {
+  background-color: transparent;
+  color: #333;
+}
+.set_9_btn3-corner:hover .line1,
+.set_9_btn3-corner:active .line1,
+.set_9_btn3-corner:hover .line3,
+.set_9_btn3-corner:active .line3 {
+  width: 100%;
+}
+.set_9_btn3-corner:hover .line2,
+.set_9_btn3-corner:active .line2,
+.set_9_btn3-corner:hover .line4,
+.set_9_btn3-corner:active .line4 {
+  height: 100%;
+}
+.set_9_btn3-corner:hover.reverse .line1,
+.set_9_btn3-corner:active.reverse .line1,
+.set_9_btn3-corner:hover.reverse .line3,
+.set_9_btn3-corner:active.reverse .line3 {
+  width: 20px;
+}
+.set_9_btn3-corner:hover.reverse .line2,
+.set_9_btn3-corner:active.reverse .line2,
+.set_9_btn3-corner:hover.reverse .line4,
+.set_9_btn3-corner:active.reverse .line4 {
+  height: 20px;
+}
+
+
+/* button 4*/
+.set_9_btn4-corner {
+  padding: 0px 25px;
+  border: none;
+  background: transparent;
+  color: #333;
+  width:auto;
+  float:left;
+  position:relative;
+  line-height:45px;
+  cursor:pointer;
+  margin-right: 2em;
+}
+.set_9_btn4-corner span {
+  position: absolute;
+  background-color: #56c5ff;
+  display: block;
+  transition: all 200ms;
+}
+.set_9_btn4-corner .line1,
+.set_9_btn4-corner .line3 {
+  height: 2px;
+  width: 20px;
+}
+.set_9_btn4-corner .line2,
+.set_9_btn4-corner .line4 {
+  height: 20px;
+  width: 2px;
+}
+.set_9_btn4-corner .line1,
+.set_9_btn4-corner .line2 {
+  top: 0;
+  right: 0;
+}
+.set_9_btn4-corner .line3,
+.set_9_btn4-corner .line4 {
+  bottom: 0;
+  left: 0;
+}
+.set_9_btn4-corner.reverse .line1,
+.set_9_btn4-corner.reverse .line3 {
+  width: 100%;
+}
+.set_9_btn4-corner.reverse .line2,
+.set_9_btn4-corner.reverse .line4 {
+  height: 100%;
+}
+.set_9_btn4-corner:hover,
+.set_9_btn4-corner:active {
+  background-color: transparent;
+  color: #333;
+}
+.set_9_btn4-corner:hover .line1,
+.set_9_btn4-corner:active .line1,
+.set_9_btn4-corner:hover .line3,
+.set_9_btn4-corner:active .line3 {
+  width: 100%;
+}
+.set_9_btn4-corner:hover .line2,
+.set_9_btn4-corner:active .line2,
+.set_9_btn4-corner:hover .line4,
+.set_9_btn4-corner:active .line4 {
+  height: 100%;
+}
+.set_9_btn4-corner:hover.reverse .line1,
+.set_9_btn4-corner:active.reverse .line1,
+.set_9_btn4-corner:hover.reverse .line3,
+.set_9_btn4-corner:active.reverse .line3 {
+  width: 20px;
+}
+.set_9_btn4-corner:hover.reverse .line2,
+.set_9_btn4-corner:active.reverse .line2,
+.set_9_btn4-corner:hover.reverse .line4,
+.set_9_btn4-corner:active.reverse .line4 {
+  height: 20px;
+}

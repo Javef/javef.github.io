@@ -1,0 +1,86 @@
+/*  set2 start here */
+
+.set_2_button {
+	font: inherit;
+	color: #FFF;
+	width: auto;
+	float: left;
+	padding: 0px 25px;
+	line-height: 45px;
+	margin-right: 2.5em;
+	overflow: hidden;
+	position: relative;
+	transition: all 1s;
+	cursor: pointer;
+}
+.set_2_button:before {
+	left: 48%;
+}
+.set_2_button:active {
+	background: #cccccc;
+	color: #000000;
+	top: 2px;
+	transition: all 1s;
+}
+.set_2_button > span {
+	display: inline-block;
+	transition: all 0.5s;
+}
+.icon-forward:before {
+	content: "→";
+	position: absolute;
+}
+.icon-backward:before {
+	content: "←";
+	position: absolute;
+}
+.icon-up:before {
+	content: "↑";
+	position: absolute;
+}
+.icon-down:before {
+	content: "↓";
+	position: absolute;
+}
+.set_2_btn-1:before {
+	left: -100%;
+	transition: all 0.5s;
+}
+.set_2_btn-1:hover:before {
+	left: 48%;
+	transition: all 1s;
+}
+.set_2_btn-1:hover > span {
+	transform: translateX(300%);
+	transition: all 1s;
+}
+.set_2_btn-2:before {
+	top: -100%;
+	transition: all 0.5s;
+}
+.set_2_btn-2:hover:before {
+	top: 0px;
+}
+.set_2_btn-2:hover > span {
+	transform: translateY(300%);
+}
+.color1{
+background:#666666 ;
+}
+.color2{
+background:#f8c013;
+color:#2e2302;
+}
+.color3{
+background:#f2625a;
+}
+.color4{
+background:#b9ccd2;
+color:#252b2d;
+}
+.color5{
+background:#56c5ff;
+color:#fff;
+}
+
+/* set 2 end here */

@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<article class="post-container post-container--single" itemscope itemtype="http://schema.org/BlogPosting">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="post-meta">
+      <img src="/images/calendar.png" width="20px"/> 
+      <time datetime="{{page.date | date: date_to_xmlschema}}" itemprop="datePublished" class="post-meta__date date">{{page.date | date: "%F"}}</time> | 阅读：<span id="busuanzi_value_page_pv"><i class="fa fa-spinner fa-spin"></i></span>次
+    </p>
+    </div>
+  </header>
+  <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <script async src="http://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  <section class="post">
+    {{ content }}
+
+  </section>
+</article>
+
+{% include new-old.html %}
+{% include comments.html %}

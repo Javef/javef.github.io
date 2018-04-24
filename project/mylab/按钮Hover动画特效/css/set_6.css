@@ -1,0 +1,150 @@
+.set_6_btn {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  margin-right:2.5em;
+}
+.set_6_btn span {
+  display: block;
+  padding: 30px;
+  color: #FFFFFF;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+  float: left;
+  font-weight: 400;
+  line-height:20px;
+}
+.set_6_btn.out .corners {
+  position: absolute;
+  width: 100%;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+.set_6_btn.out .corners:before, .set_6_btn.out .corners:after {
+  content: '';
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-color:#ffd311;
+  border-style: solid;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+}
+.set_6_btn.out .corners.top:before {
+  border-width: 1px 0 0 1px;
+}
+.set_6_btn.out .corners.top:after {
+  border-width: 1px 1px 0 0;
+}
+.set_6_btn.out .corners.bottom:before {
+  border-width: 0 0 1px 1px;
+}
+.set_6_btn.out .corners.bottom:after {
+  border-width: 0 1px 1px 0;
+}
+.set_6_btn.out .corners:before {
+  left: 0;
+}
+.set_6_btn.out .corners:after {
+  right: 0;
+}
+.set_6_btn.out .corners.top {
+  top: 0;
+}
+.set_6_btn.out .corners.bottom {
+  bottom: 7px;
+}
+.set_6_btn.out:hover .corners:before {
+  left: 20px;
+}
+.set_6_btn.out:hover .corners:after {
+  right: 20px;
+}
+.set_6_btn.out:hover .corners.top {
+  top: 20px;
+}
+.set_6_btn.out:hover .corners.bottom {
+  bottom: 27px;
+}
+.set_6_btn.in .corners {
+  position: absolute;
+  width: 100%;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+.set_6_btn.in .corners:before, .set_6_btn.in .corners:after {
+  content: '';
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  border-color: #FFB902;
+  border-style: solid;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+}
+.set_6_btn.in .corners.top:before {
+  border-width: 1px 0 0 1px;
+}
+.set_6_btn.in .corners.top:after {
+  border-width: 1px 1px 0 0;
+}
+.set_6_btn.in .corners.bottom:before {
+  border-width: 0 0 1px 1px;
+}
+.set_6_btn.in .corners.bottom:after {
+  border-width: 0 1px 1px 0;
+}
+.set_6_btn.in .corners:before {
+  left: 20px;
+}
+.set_6_btn.in .corners:after {
+  right: 20px;
+}
+.set_6_btn.in .corners.top {
+  top: 20px;
+}
+.set_6_btn.in .corners.bottom {
+  bottom: 27px;
+}
+.set_6_btn.in:hover .corners:before {
+  left: 0;
+}
+.set_6_btn.in:hover .corners:after {
+  right: 0;
+}
+.set_6_btn.in:hover .corners.top {
+  top: 0;
+}
+.set_6_btn.in:hover .corners.bottom {
+  bottom: 7px;
+}
+
+.set_6_btn.yellow span {
+  color:#333;
+}
+.set_6_btn.yellow .corners:after, .set_6_btn.yellow .corners:before {
+  border-color: #ffd311;
+}
+.set_6_btn.grey span {
+  color:#333;
+}
+.set_6_btn.grey .corners:after, .set_6_btn.grey .corners:before {
+  border-color: #838383;
+}
+.set_6_btn.red span {
+  color:#333;
+}
+.set_6_btn.red .corners:after, .set_6_btn.red .corners:before {
+  border-color: #dd483f;
+}
+.set_6_btn.blue span {
+  color:#333;
+}
+.set_6_btn.blue .corners:after, .set_6_btn.blue .corners:before {
+  border-color: #56c5ff ;
+}

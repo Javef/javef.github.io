@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jQuery经过图片高亮手风琴样式</title>
+
+<style type="text/css">
+body{background-color: #161616}
+body,ul,li,p {margin: 0;padding: 0}
+ul,ol {list-style: none;}
+.home-subjects-v2{height:128px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;border:1px solid #d3d3d3;border-color:rgba(0,0,0,.12);overflow:hidden;width:938px;margin-top:12px;background:#fff}
+.home-subjects-v2 ul{width:1000px}
+.home-subjects-v2 li{width:156px;height:128px;float:left;overflow:hidden;-webkit-transition:all .1s linear;-moz-transition:all .1s linear;-o-transition:all .1s linear;-ms-transition:all .1s linear;transition:all .1s linear}
+.home-subjects-v2 li *{-webkit-transition:all .1s linear;-moz-transition:all .1s linear;-o-transition:all .1s linear;-ms-transition:all .1s linear;transition:all .1s linear}
+.home-subjects-v2 li a{width:156px;height:128px;display:block;position:relative;cursor:pointer;text-decoration:none;overflow:hidden}
+.home-subjects-v2 li a:hover{position:absolute}
+.home-subjects-v2 li a:hover .mask{-ms-filter:"alpha(Opacity=0)";filter:alpha(opacity=0);opacity:0;-webkit-transition:opacity .2s ease-in;-moz-transition:opacity .2s ease-in;-o-transition:opacity .2s ease-in;-ms-transition:opacity .2s ease-in;transition:opacity .2s ease-in}
+.home-subjects-v2 li img{height:72px;width:117px;position:absolute;bottom:0;right:-13px}
+.home-subjects-v2 li .line{height:128px;width:0;font-size:0;border-right:1px dashed #cacaca;position:absolute;right:0;top:4px}
+.home-subjects-v2 li .info{position:absolute;top:0;left:0;width:136px;padding:4px 10px}
+.home-subjects-v2 li .info h3{font-size:14px;font-weight:700}
+.home-subjects-v2 li .info p{color:#868686;font-size:12px;overflow:hidden;width:136px;height:22px;line-height:22px}
+.home-subjects-v2 li .info p.price{font-size:14px;font-style:italic;color:#fa2a5d;height:35px}
+.home-subjects-v2 li .info p.price strong{font-size:22px;font-family:Arial;padding-right:2px}
+.home-subjects-v2 li .info p.price i{font-size:14px}
+.home-subjects-v2 li .info p.more{display:none}
+.home-subjects-v2 .mask{height:128px;width:156px;display:block;position:absolute;top:0;left:0;background:#000;-ms-filter:"alpha(Opacity=0)";filter:alpha(opacity=0);opacity:0;-webkit-transition:opacity .2s ease-in;-moz-transition:opacity .2s ease-in;-o-transition:opacity .2s ease-in;-ms-transition:opacity .2s ease-in;transition:opacity .2s ease-in;_display:none!important}
+.home-subjects-v2 .big{width:314px}
+.home-subjects-v2 .big a{width:314px}
+.home-subjects-v2 .big img{width:195px;height:120px;right:0;bottom:0}
+.home-subjects-v2 .big .info{width:294px}
+.home-subjects-v2 .big .info h3{font-size:18px}
+.home-subjects-v2 .big .info p{font-size:14px;width:166px}
+.home-subjects-v2 .big .info p.price{font-size:16px;padding-top:7px}
+.home-subjects-v2 .big .info p.price strong{font-size:28px}
+.home-subjects-v2 .big .info p.price i{font-size:16px}
+.home-subjects-v2 .big .info p.more{display:block;font-size:12px;color:#ff2a5b}
+.home-subjects-v2 .big .mask{width:314px}
+.home-subjects-v2:hover .mask{-ms-filter:"alpha(Opacity=75)";filter:alpha(opacity=75);opacity:.75;-webkit-transition:opacity .2s ease-in;-moz-transition:opacity .2s ease-in;-o-transition:opacity .2s ease-in;-ms-transition:opacity .2s ease-in;transition:opacity .2s ease-in}
+</style>
+
+<script src="js/jquery.min.js"></script>
+
+</head>
+<body>
+<center>
+<div id="subject" class="home-subjects-v2">
+<ul>
+	<li>
+		<a>
+			<img src="img/a1.jpg">
+			<div class="info">
+			<h3 style="color:#f62368">聚美妆</h3>
+			<p>聚美妆1/2周年庆</p>
+			<p class="price"><strong>1</strong><i>折起</i></p>
+			<p class="more">进入专题抢购 &gt; </p>
+			</div>
+			<s class="line"></s>
+			<i class="mask"></i>
+		</a>
+	</li>
+	<li class="big">
+		<a>
+			<img src="img/a2.jpg">
+			<div class="info">
+			<h3 style="color:#ff578a">Baby购</h3>
+			<p>宝宝该换装了，新品抢购</p>
+			<p class="price"><strong>2.5</strong><i>折起</i></p>
+			<p class="more">进入专题抢购 &gt; </p>
+			</div>
+			<s class="line"></s>    <i class="mask"></i>
+		</a>
+	</li>
+	<li>
+		<a>
+			<img src="img/a3.jpg">
+			<div class="info">
+			<h3 style="color:#6d3fa7">时装团</h3>
+			<p>时尚春装，清新小潮搭配</p>
+			<p class="price"><strong>1</strong><i>折起</i></p>
+			<p class="more">进入专题抢购 &gt; </p>
+			</div>
+			<s class="line"></s>    <i class="mask"></i>
+		</a>
+	</li>
+	<li>
+		<a>
+			<img src="img/a4.jpg">
+			<div class="info">
+			<h3 style="color:#d61939">TV购</h3>
+			<p>补血养颜 就这么简单</p>
+			<p class="price"><strong>2.6</strong><i>折起</i></p>
+			<p class="more">进入专题抢购 &gt; </p>
+			</div>
+			<s class="line"></s><i class="mask"></i>
+		</a>
+	</li>
+	<li>
+		<a>
+			<img src="img/a5.jpg">
+			<div class="info">
+			<h3 style="color:#6f9400">聚新鲜</h3>
+			<p>最纯正的泰国香米</p>
+			<p class="price"><strong>5</strong><i>折起</i></p>
+			<p class="more">进入专题抢购 &gt; </p>
+			</div>
+			<i class="mask"></i>
+		</a>
+	</li>
+</ul>
+</div>
+</center>
+<script type="text/javascript">
+	function mouseover(e){
+		var list = $('#subject li');
+		var target = $(e.target).parents('li');
+
+		list.removeClass('big');
+		target.addClass('big');
+	}
+
+	(function(){
+		var outer = $('#subject');
+		outer.find('li').on('mouseover', mouseover);
+	})()
+	
+</script>
+
+<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';color:#ffffff">
+<p>适用浏览器：IE8、360、FireFox、Chrome、Safari、Opera、傲游、搜狗、世界之窗.</p>
+<p>来源：<a href="http://sc.chinaz.com/" target="_blank">站长素材</a></p>
+</div>
+</body>
+</html>

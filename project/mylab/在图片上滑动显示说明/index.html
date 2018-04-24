@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>鼠标悬停图片上,滑动显示说明</title>
+  <style>
+
+    *{
+      margin:0px;
+      padding:0px;
+    }
+
+    html,body{
+      height:100%;
+      width:100%;
+      overflow: hidden;
+    }
+
+    fieldset{
+      margin:3px;
+      padding:10px 0px 10px 40px;
+      box-sizing: border-box;
+    }
+
+    iframe{
+      width:99%;
+      height:calc(100% - 200px);
+      margin-left:5px;
+    }
+  </style>
+</head>
+<body>
+  <fieldset>
+    <legend>Template Test</legend>
+    <ul>
+      <li><a href="demo01.html" target='test'>jQuery鼠标悬停图片上,滑动显示说明</a></li>
+      <li><a href="/" target='test'> 待实现</a></li>
+    </ul>
+  </fieldset>
+
+  <iframe name='test' src='demo01.html' />
+</body>
+</html>

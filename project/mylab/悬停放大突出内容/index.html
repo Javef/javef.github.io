@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>jQuery悬停放大突出内容</title>
+</head>
+<body>
+
+<style type="text/css">
+*{margin:0;padding:0;list-style-type:none;}
+a,img{border:0;text-decoration:none;}
+
+.clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0}
+*html .clearfix{height:1%}
+
+.solution-list{position:relative;height:412px;z-index:9;width:1200px;margin:0 auto;}
+.short-bar{position:absolute;top:187px;left:50%;margin-left:-15px;width:30px;height:3px;background-color:#fff}
+.active .short-bar{top:201px;background-color:#009dff}
+.solution-list ul li{float:left;width:240px;position:relative;height:412px;transition:all .5s;-moz-transition:all .5s;-webkit-transition:all .5s;-o-transition:all .5s}
+.solution-item-wrapper{width:240px;height:412px;background:url(img/solution_item_bg_01.jpg) center no-repeat}
+.solution-item-02{background-image:url(img/solution_item_bg_02.jpg)}
+.solution-item-03{background-image:url(img/solution_item_bg_03.jpg)}
+.solution-item-04{background-image:url(img/solution_item_bg_04.jpg)}
+.solution-item-05{background-image:url(img/solution_item_bg_05.jpg)}
+.active .solution-item-wrapper{position:absolute;z-index:9;top:-62px;left:-51px;width:341px;height:526px;background:url(img/solution_item_bg_active_01.jpg) no-repeat;-webkit-box-shadow:0 5px 40px rgba(0,0,0,.5);-moz-box-shadow:0 5px 40px rgba(0,0,0,.5);box-shadow:0 5px 40px rgba(0,0,0,.5)}
+
+@media only screen and (max-width:1400px){
+	.product-special-li-5.active .solution-item-wrapper{left:-102px}
+}
+.active .solution-item-02{background-image:url(img/solution_item_bg_active_02.jpg)}
+.active .solution-item-03{background-image:url(img/solution_item_bg_active_03.jpg)}
+.active .solution-item-04{background-image:url(img/solution_item_bg_active_04.jpg)}
+.active .solution-item-05{background-image:url(img/solution_item_bg_active_05.jpg)}
+.solution-list ul li p.solution-title{position:absolute;top:211px;width:100%;text-align:center;color:#fff;font-size:18px;z-index:2}
+.solution-list ul li p.solution-intro{position:absolute;top:282px;left:50%;margin-left:-121px;width:242px;overflow:hidden;color:#eee;line-height:2;z-index:2;opacity:0;filter:alpha(opacity=0);font-size:14px;text-align:justify}
+.solution-list ul li a{display:none;position:absolute;top:452px;left:50%;margin-left:-87px;width:174px;height:40px;line-height:40px;text-align:center;font-size:14px;color:#fff;z-index:2;background-color:#0af}
+.solution-list ul li a:hover{background-color:#0099e5;transition:all .6s;-moz-transition:all .6s;-webkit-transition:all .6s;-o-transition:all .6s}
+.solution-list ul li.active p.solution-title{top:158px;font-size:22px}
+.solution-list ul li.active p.solution-intro{top:230px;opacity:1;filter:alpha(opacity=100)}
+.solution-list ul li.active a{top:388px;display:block}
+</style>
+
+<div style="height:100px;"></div>
+
+<div class="solution-list">
+	<ul id="solutionList" class="clearfix">
+		<li>
+			<div class="solution-item-wrapper solution-item-01">
+				<p class="solution-title">网站解决方案</p>
+				<div class="short-bar"></div>
+				<p class="solution-intro">网站解决方案为企业及开发者提供灵活弹性自动化的基础IT设施建设、按需付费的服务模式及低成本的运维服务体系，帮助客户推动企业核心业务创新发展。</p>
+				<a href="#">查看详情</a>
+			</div>
+		</li>
+		<li>
+			<div class="solution-item-wrapper solution-item-02">
+				<p class="solution-title">金融云解决方案</p>
+				<div class="short-bar"></div>
+				<p class="solution-intro">金融云为客户提供量身定制的云计算服务，IT硬件零投入，云设施运维零维护，高品质保障的售后服务机制，帮助金融用户高效应用云计算服务。</p>
+				<a href="#">查看详情</a>
+			</div>
+		</li>
+		<li  class="active">
+			<div class="solution-item-wrapper solution-item-03">
+				<p class="solution-title">移动云解决方案</p>
+				<div class="short-bar"></div>
+				<p class="solution-intro">移动云应用虚拟化系统为客户提供最佳的应用性能及灵活的应用虚拟化服务，帮助客户实现手机、平板电脑等移动设备安全顺畅地访问各种应用软件。</p>
+				<a href="#">查看详情</a>
+			</div>
+		</li>
+		<li>
+			<div class="solution-item-wrapper solution-item-04">
+				<p class="solution-title">电商云解决方案</p>
+				<div class="short-bar"></div>
+				<p class="solution-intro">电商云帮助电商客户快速实现平台搭建、节约成本、应对业务高并发、强化安全防护能力，助力电商客户快速实现金融创新及业务增收的目标。</p>
+				<a href="#">查看详情</a>
+			</div>
+		</li>
+		<li class="product-special-li-5">
+			<div class="solution-item-wrapper solution-item-05">
+				<p class="solution-title">游戏云解决方案</p>
+				<div class="short-bar"></div>
+				<p class="solution-intro">游戏云为客户游戏开发、游戏运营提供专属服务集群；多场景多类型的游戏部署解决方案，同时提供尊贵VIP售后服务，为客户游戏稳定运行提供基石。</p>
+				<a href="#">查看详情</a>
+			</div>
+		</li>
+	</ul>
+</div>
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	
+	var b = $("#solutionList li");
+	b.mouseover(function() {
+		var e = $(this);
+		b.removeClass("active");
+		e.addClass("active")
+	});
+
+});
+</script>
+
+<div style="text-align:center;margin:100px 0; font:normal 14px/24px 'MicroSoft YaHei';">
+<p>适用浏览器：IE8、360、FireFox、Chrome、Safari、Opera、傲游、搜狗、世界之窗.</p>
+<p>来源：<a href="http://sc.chinaz.com/" target="_blank">站长素材</a></p>
+</div>
+</body>
+</html>

@@ -1,0 +1,121 @@
+<section class="footer">
+    <footer>
+        <div class = "footer_div">  
+        <nav class="cover-navigation navigation--social">
+          <ul class="navigation">
+
+          {% if site.social.weibo %}
+          <!-- Weibo -->
+          <li class="navigation__item_social">
+            <a href="http://weibo.com/{{site.social.weibo}}" title="Weibo" target="_blank">
+              <i class='social fa fa-weibo fa-2x'></i>
+              <span class="label">Weibo</span>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.social.github %}
+          <!-- Github -->
+          <li class="navigation__item_social">
+            <a href="https://github.com/{{site.social.github}}" title="Github" target="_blank">
+              <i class='social fa fa-github fa-2x'></i>
+              <span class="label">Github</span>
+            </a>
+          </li>
+          {% endif %}
+          
+          {% if site.social.twitter %}
+          <!-- Twitter -->
+          <li class="navigation__item_social">
+            <a href="http://twitter.com/{{site.social.twitter}}" title="Twitter" target="_blank">
+              <i class='social fa fa-twitter fa-2x'></i>
+              <span class="label">Twitter</span>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.social.gplus %}
+          <!-- Google Plus -->
+          <li class="navigation__item_social">
+            <a href="https://plus.google.com/{{site.social.gplus}}" rel="author" title="Google+" target="_blank">
+              <i class='social fa fa-google-plus-square fa-2x'></i>
+              <span class="label">Google Plus</span>
+            </a>
+          </li>
+          {% endif %}
+
+          <!-- RSS -->
+          <li class="navigation__item_social">
+            <a href="/feed.xml" rel="author" title="RSS" target="_blank">
+              <i class='social fa fa-rss fa-2x'></i>
+              <span class="label">RSS</span>
+            </a>
+          </li>
+
+          {% if site.social.mail %}
+          <!-- Email -->
+          <li class="navigation__item_social">
+            <a href="https://mailto:{{site.social.mail}}" title="Contact me">
+              <i class='social fa fa-envelope fa-2x'></i>
+              <span class="label">Email</span>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.social.music %}
+          <!-- Netease Cloud Music -->
+          <li class="navigation__item_social">
+            <a href="http://music.163.com/#/user/home?id={{site.social.mausic}}" title="Netease Cloud Music">
+              <i class='social fa fa-music fa-2x'></i>
+              <span class="label">Netease Cloud Music</span>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.social.flickr %}
+          <!-- Flickr -->
+          <li class="navigation__item_social">
+            <a href="https://www.flickr.com/photos/{{site.social.flickr}}" title="Flickr">
+              <i class='social fa fa-flickr fa-2x'></i>
+              <span class="label">Flickr</span>
+            </a>
+          </li>
+          {% endif %}
+
+          {% if site.social.paypal %}
+          <!-- PayPal.me -->
+          <li class="navigation__item_social">
+            <a href="https://www.paypal.me/{{site.social.paypal}}" title="PayPal.me">
+              <i class='social fa fa-paypal fa-2x'></i>
+              <span class="label">PayPal.me</span>
+            </a>
+          </li>
+          {% endif %}
+
+          </ul>
+        </nav>
+      </div>
+
+      <div class = "footer_div" align="center">  
+        <p class="copyright text-muted">
+          Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
+          本站点采用<a href="https://www.mit-license.org/">MIT 许可协议</a>部署. | 由 <a href="https://www.jekyll.com.cn/">Jekyll框架</a>驱动下<a href="https://github.com/onevcat/vno-jekyll">Vno-Jekyll主题</a>搭建.
+        </p>
+
+      	<div align="center">
+            
+            <!-- 访问统计 -->
+            <script async src="http://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
+            
+            本站总访问量<span id="busuanzi_value_site_pv"><i class="fa fa-spinner fa-spin"></i></span>次.
+
+            <iframe
+                  style="margin-left: 2px; margin-bottom:-5px;"
+                  frameborder="0" scrolling="0" width="91px" height="20px"
+                  src="https://ghbtns.com/github-btn.html?user=Javef&repo=javef.github.io&type=star&count=true" >
+            </iframe>
+      </div>
+      </div>
+    </footer>
+</section>

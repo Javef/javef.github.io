@@ -1,0 +1,84 @@
+<!DOCTYPE html >
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>鼠标悬停图片上,滑动显示说明</title>
+    <style type="text/css">
+        *{ margin:0; padding:0;}
+        img{ border:none;}
+        .zzsc {
+            width:300px;
+            height:300px;
+            margin:auto;
+            position:relative;
+        }
+        .text {
+            width:300px;
+            height:auto;
+            background-color:#000;
+            FILTER:alpha(opacity=60);
+            opacity:0.7;
+            -moz-opacity:0.7;
+            position:absolute;
+            left:0px;
+            bottom:0px;
+        }
+        .imgbt {
+            width:280px;
+            height:30px;
+            padding:0px 10px;
+        }
+        .imgbt span {
+            display:block;
+        }
+        .span_a {
+            width:210px;
+            line-height:30px;
+            float:left;
+            font-size:14px;
+            color:#FF3366;
+            padding-right:10px;
+        }
+        .span_b {
+            width:60px;
+            line-height:30px;
+            float:left;
+            font-size:16px;
+            color:#FF3366;
+            font-family:Georgia, "Times New Roman", Times, serif;
+            text-align:right;
+        }
+        .imgtext {
+            width:280px;
+            height:auto;
+            float:left;
+            padding:10px;
+            color:#fff;
+            font-size:12px;
+            line-height:200%;
+        }
+    </style>
+</head>
+
+<body>
+    <p>鼠标悬停图片上,滑动显示说明</p>
+    <div class="zzsc"><a href="#" target="_blank"><img src="2.jpg"></a>
+      <div class="text">
+        <div class="imgtext"> 2012新品男T恤韩版短袖男士夏装男装翻领t恤POLO衫 货到付款 T93 </div>
+      </div>
+    </div>
+
+    <script src="jquery-1.7.2.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+         $(".imgtext").hide();
+         $(".zzsc").hover(function(){
+          $(".imgtext",this).slideToggle(500);
+         });
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+.viavi_share {
+  width:100% !important;
+  overflow:hidden;
+  margin:0px auto;
+}
+.viavi_share .Vbtn .viavi_bg_button div {
+  font-size:16px;
+  color:rgb(124, 124, 124);
+}
+/*=======================*/
+
+/*=== MB share buttons ===*/
+.viavi_share .Vbtn {
+  background:#DCE0E0;
+  position:relative;
+  float:left;
+  margin:0 7px 14px;
+  width:150px;
+  height:40px; 
+  cursor:pointer;
+  overflow:hidden;
+  -webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  border-radius:3px;
+}
+.viavi_share .Vbtn .Vicon {
+  float:left;
+  z-index:200;
+  position:relative;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  color:#FFF;
+  text-align:center;
+  -webkit-border-radius:3px 0px 0px 3px;
+  -moz-border-radius:3px 0px 0px 3px;
+  border-radius:3px 0px 0px 3px;
+}
+.viavi_share .Vbtn .viavi_bg_button {
+  width:110px;
+  height:40px;
+  float:left;
+  background:#DCE0E0 !important;
+  display:table;
+}
+.viavi_share .Vbtn .viavi_bg_button > div {
+  display:table-cell;
+  vertical-align:middle;
+  text-align:center;
+}
+.viavi_share .Vbtn .Vslide {
+  position:absolute;
+  right:0;
+  top:0;
+  z-index:100;
+  float:left;
+  width:110px;
+  height:40px;
+  transition:.2s transform linear;
+  -webkit-transition:.2s -webkit-transform linear;
+  -moz-transition:.2s -moz-transform linear;
+}
+.viavi_share .Vbtn .Vslide span {
+  color:#fff;
+  display:block;
+  cursor:default;
+  width:100%;
+  text-align:center;
+  margin:7px 0;
+  padding:2px 0;
+  font-size:16px;
+  border-left:1px solid rgba(255,255,255,0.35);
+}
+/* Transitions */
+.viavi_share .Vbtn.Vslide_x:hover .Vslide {
+  -webkit-transform:translateX(110px);
+  -moz-transform:translateX(110px);
+  transform:translateX(110px);
+}
+.viavi_share .Vbtn.Vslide_nx:hover .Vslide {
+  -webkit-transform:translateX(-110px);
+  -moz-transform:translateX(-110px);
+  transform:translateX(-110px);
+}
+.viavi_share .Vbtn.Vslide_y:hover .Vslide {
+  -webkit-transform:translateY(40px);
+  -moz-transform:translateY(40px);
+  transform:translateY(40px);
+}
+.viavi_share .Vbtn.Vslide_ny:hover .Vslide {
+  -webkit-transform:translateY(-40px);
+  -moz-transform:translateY(-40px);
+  transform:translateY(-40px);
+}
+/*========================*/
+/*=== Colors ===*/
+
+/* FACEBOOK */
+.viavi_share .Vbtn.Vfacebook > div {
+  background-color:#305c99;
+}
+/* TWITTER */
+.viavi_share .Vbtn.Vtwitter > div {
+  background-color:#00cdff;
+}
+/* YOUTUBE */
+.viavi_share .Vbtn.Vyoutube > div {
+  background-color:#e22b26;
+}
+/* GOOGLE PLUS */
+.viavi_share .Vbtn.Vgplus > div {
+  background-color:#3f3d3e;
+}
+/* LINKEDIN */
+.viavi_share .Vbtn.Vlinkedin > div {
+  background-color:#007bb6 ;
+}
+/* TUMBLR */
+.viavi_share .Vbtn.Vtumblr > div {
+  background-color:#2c4762;
+}
+/* GITHUB */
+.viavi_share .Vbtn.Vgithub > div {
+  background-color:#42c0fb;
+}
+/* PINTEREST */
+.viavi_share .Vbtn.Vpinterest > div {
+  background-color:#dc0d0a;
+}
+/*==============*/
