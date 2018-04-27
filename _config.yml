@@ -6,7 +6,7 @@ description: 欢迎来到我的个人站~
 avatarTitle: Zhouie
 # 头像里面的描述
 avatarDesc: 2018 · 期待
-url: "http://www.zhouie.cn"
+url: "http://javef.github.io"
 
 # Comment
 comment:
@@ -25,7 +25,7 @@ comment:
 # Social
 social:
     weibo: 5736541528 
-    github: Javef
+    github: javef
     # twitter: 
     gplus: 110700564157953759206    #Google+ 的id号
     mail: nanzhouie@gmail.com
@@ -36,14 +36,14 @@ social:
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
 baidu:
-    id: 840d0f85db8546fc7578e9a459f10d7f
+    id: false
 
 # Google Analytics
 # 使用博客模板请去掉或者更换 id
 ga:
-    id: UA-117762077-1
+    id: false
     host: auto  
-    ad_id: ca-pub-1103012037589808
+    ad_id: false
 
 
 # 《----------------- 上面的信息修改成你自己的 ---------------------------》
