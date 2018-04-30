@@ -29,31 +29,31 @@ title: 关于我
 <hr>
 <h3>🐕<strong>友情链接</strong></h3>
 
-* [北岛向南的小屋](https://zhouie.cn/)🔞了解一下？
+🔹 [北岛向南的小屋](https://zhouie.cn/)🔞了解一下？
 
-* [EricXie's Blog](http://ericxie.coding.me/)，教书匠，👨伪码农
+🔹 [EricXie's Blog](http://ericxie.coding.me/)，教书匠，👨伪码农
 
-* [创造狮导航](http://chuangzaoshi.com/)，为创意🎨工作者而设计
+🔹 [创造狮导航](http://chuangzaoshi.com/)，为创意🎨工作者而设计
 
 
 <hr>
 <h3>📬<strong>与我交流</strong></h3> 
 
-* 邮箱：<nanzhouie@gmail.com>🍦
+🔹 邮箱：<nanzhouie@gmail.com>🍦
 
-* 微信公众号：[北岛Y向南](http://img.my.csdn.net/uploads/201804/08/1523153885_1616.jpg)(ID:nanzhouie)🍟
+🔹 微信公众号： [北岛Y向南](http://img.my.csdn.net/uploads/201804/08/1523153885_1616.jpg)(ID:nanzhouie)🍟
 
-* Google+：[愿有人陪你颠沛流离](https://plus.google.com/110700564157953759206)☕
+🔹 Google+： [愿有人陪你颠沛流离](https://plus.google.com/110700564157953759206)☕
 
-* 网易云音乐：[南城四月里的小巷](http://music.163.com/#/user/home?id=426481614)🍩
+🔹 网易云音乐：[南城四月里的小巷](http://music.163.com/#/user/home?id=426481614)🍩
 
-* 豆瓣：[那时我们有梦](https://www.douban.com/people/jave_f/)🍰
+🔹 豆瓣：[那时我们有梦](https://www.douban.com/people/jave_f/)🍰
 
-* 知乎：[我亦是行人](https://www.zhihu.com/people/jave_f/activities)🍇
+🔹 知乎：[我亦是行人](https://www.zhihu.com/people/jave_f/activities)🍇
 
-* 简书：[一个优质创作社区](https://www.jianshu.com/u/003b6aa1939d)🍒 
+🔹 简书：[一个优质创作社区](https://www.jianshu.com/u/003b6aa1939d)🍒 
 
-* CSDN：[连世界都没观过，哪来的世界观](https://blog.csdn.net/jave_f)🍔
+🔹 CSDN：[连世界都没观过，哪来的世界观](https://blog.csdn.net/jave_f)🍔
 
 <p>
 
