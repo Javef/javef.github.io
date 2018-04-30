@@ -11,29 +11,29 @@ title: 关于我
 <hr>
 <h3>🎓<strong>关于我</strong></h3>
 
-&nbsp;🔹长期生活在中国以**南**地区
+&nbsp;🔹长期生活在中国以南地区
 
-&nbsp;🔹**年少**时也曾在日记本偷偷写下————**以后出国去香榭丽舍大街养老**的梦
+&nbsp;🔹年少时也曾在日记本偷偷写下————以后出国去香榭丽舍大街养老的梦
 
-&nbsp;🔹目前本科在读，打算**读研**进一步提升自己，认识更多**有趣的灵魂**
+&nbsp;🔹目前本科在读，打算读研进一步提升自己，认识更多有趣的灵魂
 
-&nbsp;🔹长期在计算机边缘化地区学习探索，实用**有趣**技术的热衷粉丝，学习**涉猎广泛**
+&nbsp;🔹长期在计算机边缘化地区学习探索，实用有趣技术的热衷粉丝，学习涉猎广泛
 
-&nbsp;🔹接触较多的便是**前端开发**，目前计划深入地去做**Android**、**小程序**这块的拓展提升
+&nbsp;🔹接触较多的便是前端开发，目前计划深入地去做Android、小程序这块的拓展提升
 
-&nbsp;🔹坚定的**共产主义**追随者，中共预备党员
+&nbsp;🔹坚定的共产主义追随者，中共预备党员
 
-&nbsp;🔹还是希望以后有机会，去邻国日本**旅居**一段时间
+&nbsp;🔹还是希望以后有机会，去邻国日本旅居一段时间
 <p>
 
 <hr>
 <h3>🐕<strong>友情链接</strong></h3>
 
-🔹 [北岛向南的小屋](https://zhouie.cn/)🔞了解一下？
+🔹 <a href="https://zhouie.cn/">北岛向南的小屋</a>🔞了解一下？
 
-🔹 [EricXie's Blog](http://ericxie.coding.me/)，教书匠，👨伪码农
+🔹 <a href="http://ericxie.coding.me/">EricXie's Blog</a>，教书匠，👨伪码农
 
-🔹 [创造狮导航](http://chuangzaoshi.com/)，为创意🎨工作者而设计
+🔹 <a href="http://chuangzaoshi.com/">创造狮导航</a>，为创意🎨工作者而设计
 
 
 <hr>
@@ -41,26 +41,26 @@ title: 关于我
 
 🔹 邮箱：<nanzhouie@gmail.com>🍦
 
-🔹 微信公众号： [北岛Y向南](http://img.my.csdn.net/uploads/201804/08/1523153885_1616.jpg)(ID:nanzhouie)🍟
+🔹 微信公众号： <a href="http://img.my.csdn.net/uploads/201804/08/1523153885_1616.jpg"> 北岛Y向南</a> (ID:nanzhouie)🍟
 
-🔹 Google+： [愿有人陪你颠沛流离](https://plus.google.com/110700564157953759206)☕
+🔹 Google+： <a href="https://plus.google.com/110700564157953759206">愿有人陪你颠沛流离</a>☕
 
-🔹 网易云音乐：[南城四月里的小巷](http://music.163.com/#/user/home?id=426481614)🍩
+🔹 网易云音乐：<a href="http://music.163.com/#/user/home?id=426481614">南城四月里的小巷</a>🍩
 
-🔹 豆瓣：[那时我们有梦](https://www.douban.com/people/jave_f/)🍰
+🔹 豆瓣： <a href="https://www.douban.com/people/jave_f/">那时我们有梦</a>🍰
 
-🔹 知乎：[我亦是行人](https://www.zhihu.com/people/jave_f/activities)🍇
+🔹 知乎：<a href="https://www.zhihu.com/people/jave_f/activities">我亦是行人</a>🍇
 
-🔹 简书：[一个优质创作社区](https://www.jianshu.com/u/003b6aa1939d)🍒 
+🔹 简书：<a href="https://www.jianshu.com/u/003b6aa1939d">一个优质创作社区</a>🍒 
 
-🔹 CSDN：[连世界都没观过，哪来的世界观](https://blog.csdn.net/jave_f)🍔
+🔹 CSDN：<a href="https://blog.csdn.net/jave_f">连世界都没观过，哪来的世界观</a>🍔
 
 <p>
 
 <hr>
 <h3>🗽<strong>关于本站</strong></h3>  
 <p>
-如果你也想基于<strong>GitHub Pages + Jekyll + Ruby + Git + MarkDown</strong>搭建一个类似于我这样的博客，可以看我的
+如果你也想基于 GitHub Pages + Jekyll + Ruby + Git + MarkDown 搭建一个类似于我这样的博客，可以看我的
 <a href="https://javef.github.io/2018/02/Jekyll-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-%E6%8B%93%E5%B1%95%E7%89%88/"> Jekyll 搭建个人博客 </a>教程
 <p>
 
