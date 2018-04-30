@@ -11,24 +11,24 @@ title: 关于我
 <hr>
 <h3>🎓<strong>关于我</strong></h3>
 
-&nbsp;🔹长期生活在中国以南地区<p>
+&nbsp;🔹长期生活在中国以南地区
 
-&nbsp;🔹年少时也曾在日记本偷偷写下————以后出国去香榭丽舍大街养老的梦<p>
+&nbsp;🔹年少时也曾在日记本偷偷写下————以后出国去香榭丽舍大街养老的梦
 
-&nbsp;🔹目前本科在读，打算读研进一步提升自己，认识更多有趣的灵魂<p>
+&nbsp;🔹目前本科在读，打算读研进一步提升自己，认识更多有趣的灵魂
 
-&nbsp;🔹长期在计算机边缘化地区学习探索，实用有趣技术的热衷粉丝，学习涉猎广泛<p><p>
+&nbsp;🔹长期在计算机边缘化地区学习探索，实用有趣技术的热衷粉丝，学习涉猎广泛
 
-&nbsp;🔹接触较多的便是前端开发，目前计划深入地去做Android、小程序这块的拓展提升<p>
+&nbsp;🔹接触较多的便是前端开发，目前计划深入地去做Android、小程序这块的拓展提升
 
-&nbsp;🔹坚定的共产主义追随者，中共预备党员<p>
+&nbsp;🔹坚定的共产主义追随者，中共预备党员
 
-&nbsp;🔹还是希望以后有机会，去邻国日本旅居一段时间<p><p>
+&nbsp;🔹还是希望以后有机会，去邻国日本旅居一段时间
 <p>
 
 <hr>
 <h3>🐕<strong>友情链接</strong></h3>
-
+<p>
 &nbsp;🔹<a href="https://zhouie.cn/">北岛向南的小屋</a>🔞了解一下？<p>
 
 &nbsp;🔹<a href="http://ericxie.coding.me/">EricXie's Blog</a>，教书匠，👨伪码农<p>
@@ -38,7 +38,7 @@ title: 关于我
 
 <hr>
 <h3>📬<strong>与我交流</strong></h3> 
-
+<p>
 &nbsp;🔹邮箱：<nanzhouie@gmail.com>🍦<p>
 
 &nbsp;🔹微信公众号： <a href="http://img.my.csdn.net/uploads/201804/08/1523153885_1616.jpg"> 北岛Y向南</a> (ID:nanzhouie)🍟<p>
@@ -60,7 +60,7 @@ title: 关于我
 <hr>
 <h3>🗽<strong>关于本站</strong></h3>  
 <p>
-如果你也想基于 GitHub Pages + Jekyll + Ruby + Git + MarkDown 搭建一个类似于我这样的博客，可以看我的
+如果你也想基于 GitHub Pages + Jekyll + Ruby + Git + MarkDown 搭建一个类似于我这样的博客<p>可以看我的
 <a href="https://javef.github.io/2018/02/Jekyll-%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2-%E6%8B%93%E5%B1%95%E7%89%88/"> Jekyll 搭建个人博客 </a>教程
 <p>
 
