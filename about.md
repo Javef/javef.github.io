@@ -29,31 +29,31 @@ title: 关于我
 <hr>
 <h3>🐕<strong>友情链接</strong></h3>
 
-🔹 <a href="https://zhouie.cn/">北岛向南的小屋</a>🔞了解一下？<p>
+&nbsp;🔹<a href="https://zhouie.cn/">北岛向南的小屋</a>🔞了解一下？<p>
 
-🔹 <a href="http://ericxie.coding.me/">EricXie's Blog</a>，教书匠，👨伪码农<p>
+&nbsp;🔹<a href="http://ericxie.coding.me/">EricXie's Blog</a>，教书匠，👨伪码农<p>
 
-🔹 <a href="http://chuangzaoshi.com/">创造狮导航</a>，为创意🎨工作者而设计<p>
+&nbsp;🔹<a href="http://chuangzaoshi.com/">创造狮导航</a>，为创意🎨工作者而设计<p>
 
 
 <hr>
 <h3>📬<strong>与我交流</strong></h3> 
 
-🔹 邮箱：<nanzhouie@gmail.com>🍦<p>
+&nbsp;🔹邮箱：<nanzhouie@gmail.com>🍦<p>
 
-🔹 微信公众号： <a href="http://img.my.csdn.net/uploads/201804/08/1523153885_1616.jpg"> 北岛Y向南</a> (ID:nanzhouie)🍟<p>
+&nbsp;🔹微信公众号： <a href="http://img.my.csdn.net/uploads/201804/08/1523153885_1616.jpg"> 北岛Y向南</a> (ID:nanzhouie)🍟<p>
 
-🔹 Google+： <a href="https://plus.google.com/110700564157953759206">愿有人陪你颠沛流离</a>☕<p>
+&nbsp;🔹Google+： <a href="https://plus.google.com/110700564157953759206">愿有人陪你颠沛流离</a>☕<p>
 
-🔹 网易云音乐：<a href="http://music.163.com/#/user/home?id=426481614">南城四月里的小巷</a>🍩<p>
+&nbsp;🔹网易云音乐：<a href="http://music.163.com/#/user/home?id=426481614">南城四月里的小巷</a>🍩<p>
 
-🔹 豆瓣： <a href="https://www.douban.com/people/jave_f/">那时我们有梦</a>🍰<p>
+&nbsp;🔹豆瓣： <a href="https://www.douban.com/people/jave_f/">那时我们有梦</a>🍰<p>
 
-🔹 知乎：<a href="https://www.zhihu.com/people/jave_f/activities">我亦是行人</a>🍇<p>
+&nbsp;🔹知乎：<a href="https://www.zhihu.com/people/jave_f/activities">我亦是行人</a>🍇<p>
 
-🔹 简书：<a href="https://www.jianshu.com/u/003b6aa1939d">一个优质创作社区</a>🍒 <p>
+&nbsp;🔹简书：<a href="https://www.jianshu.com/u/003b6aa1939d">一个优质创作社区</a>🍒 <p>
 
-🔹 CSDN：<a href="https://blog.csdn.net/jave_f">连世界都没观过，哪来的世界观</a>🍔<p>
+&nbsp;🔹CSDN：<a href="https://blog.csdn.net/jave_f">连世界都没观过，哪来的世界观</a>🍔<p>
 
 <p>
 
