@@ -41,7 +41,7 @@ title: 关于我
 <p>
 &nbsp;🔹邮箱：<nanzhouie@gmail.com>🍦<p>
 
-&nbsp;🔹微信公众号： <a href="http://img.my.csdn.net/uploads/201804/08/1523153885_1616.jpg"> 北岛Y向南</a> (ID:nanzhouie)🍟<p>
+&nbsp;🔹微信公众号： <a href="http://parov0k9s.bkt.clouddn.com/img/share/%E5%8C%97%E5%B2%9B%E5%90%91%E5%8D%97.png"> 北岛Y向南</a> (ID:nanzhouie)🍟<p>
 
 &nbsp;🔹Google+： <a href="https://plus.google.com/110700564157953759206">愿有人陪你颠沛流离</a>☕<p>
 
