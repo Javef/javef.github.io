@@ -29,6 +29,6 @@ var imgArr=[
 
 var index =parseInt(Math.random()*(imgArr.length-1)); 
 
-var currentImage=imgArr[index]; 
+var currentImage=imgArr[index];
 
 document.getElementById("BackgroundArea").style.backgroundImage="url("+currentImage+")"; 
