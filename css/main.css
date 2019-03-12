@@ -523,7 +523,7 @@ img::-moz-selection {
     width: 100%;
     max-width: none;
     height: 100%;
-    background: url("https://i.loli.net/2019/03/12/5c87360351427.jpg") top left no-repeat #666666;
+    background: url("/images/background-cover-1.jpg") top left no-repeat #666666;
     background-size: cover; 
 
   .panel-cover--collapsed {
