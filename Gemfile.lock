@@ -36,7 +36,7 @@ GEM
     public_suffix (3.0.0)
     rb-fsevent (0.10.2)
     rb-inotify (0.9.10)
-      ffi (>= 1.9.24, < 2)
+      ffi (>= 1.9.24)
     redcarpet (3.4.0)
     rouge (1.11.1)
     safe_yaml (1.0.4)
