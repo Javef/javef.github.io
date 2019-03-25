@@ -14,6 +14,7 @@ body {
 }
 
 .title {
+  margin: 0 auto;
   padding: 10px 10px;
   text-align: center;
 }
@@ -22,8 +23,8 @@ body {
   position: relative;
   display: block;
   margin: 0px auto;
-  width: 450px;
-  height: 450px;
+  width: 500px;
+  height: 500px;
 }
 
 video {
@@ -32,6 +33,7 @@ video {
 }
 
 .intr {
+  margin: 0 auto;
   padding: 40px 0;
   text-align: center;
 }
