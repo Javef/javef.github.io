@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+
+body {
+  background-color: #30A8FF;
+  margin-top: 35px;
+  font-family:"Microsoft YaHei";
+  color: white;
+  font-weight: 300;
+}
+
+.title {
+  padding: 10px 10px;
+  text-align: center;
+}
+
+#container {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+}
+
+video {
+  background: #333;
+  border: 1px solid gray;
+}
+
+.intr {
+  padding: 40px 0;
+  text-align: center;
+}
+
+#localVideo {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+#remoteVideo  {
+  width: 500px;
+  height: 500px;
+}
